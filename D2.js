@@ -141,7 +141,7 @@ const exSeveOne = 8;
 const exSeveTwo = 9;
 const exSeveThree = 10;
 
-if (exSeveThree > exSeveTwo || exSeveTwo > exSeveOne) {
+if (exSeveThree > exSeveTwo && exSeveTwo > exSeveOne) {
   console.log(exSeveThree, exSeveTwo, exSeveOne);
 } else {
   console.log("i numeri non verranno ordinati");
