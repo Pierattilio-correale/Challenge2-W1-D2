@@ -94,6 +94,8 @@ if (totalShoppingCarttt > 50 && dateDay === "29/11/2024") {
 
     totalShoppingCarttt - (totalShoppingCarttt * 20) / 100
   );
+} else if (totalShoppingCarttt > 50) {
+  console.log("il prezzo da pagare è ", totalShoppingCarttt);
 } else {
   console.log("Il prezzo da pagare è", +(totalShoppingCarttt + 10));
 }
@@ -107,8 +109,25 @@ if (totalShoppingCartttt > 50 && dateDayy === "29/11/2024") {
 
     totalShoppingCartttt - (totalShoppingCartttt * 20) / 100
   );
-} else {
+} else if (totalShoppingCartttt > 50)
+  console.log("il prezzo da pagare è ", totalShoppingCartttt);
+else {
   console.log("Il prezzo da pagare è", +(totalShoppingCartttt + 10));
+}
+//oppure
+
+const totalShoppingCarttttt = 80;
+const dateDayyy = "5/11/2024";
+if (totalShoppingCarttttt > 50 && dateDayyy === "29/11/2024") {
+  console.log(
+    "il prezzo da pagare è",
+
+    totalShoppingCarttttt - (totalShoppingCarttttt * 20) / 100
+  );
+} else if (totalShoppingCarttttt > 50)
+  console.log("il prezzo da pagare è ", totalShoppingCarttttt);
+else {
+  console.log("Il prezzo da pagare è", +(totalShoppingCarttttt + 10));
 }
 
 /* ESERCIZIO 7
@@ -243,6 +262,6 @@ console.log(arrayEpicode);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-arrayEpicode.pop();
+arrayEpicode.splice(9, 1, 100);
 
 console.log(arrayEpicode);
