@@ -53,9 +53,11 @@ console.log(numbers);
 if (
   numbers.numeroPrimo === 8 ||
   numbers.numeroSecondo === 8 ||
-  numbers.numeroSecondo - numbers.numeroPrimo === 8
+  numbers.numeroSecondo - numbers.numeroPrimo === 8 ||
+  numbers.numeroPrimo + numbers.numeroSecondo === 8 ||
+  numbers.numeroPrimo - numbers.numeroSecondo === 8
 ) {
-  console.log("Perfetto almeno una delle due condizioni è stata rispettata");
+  console.log("Perfetto almeno una delle condizioni è stata rispettata");
 } else {
   console.log("Mi dispiace non è presente il numero 8");
 }
@@ -86,8 +88,10 @@ if (totalShoppingCartt > 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const totalShoppingCarttt = 51;
+
+/*const totalShoppingCarttt = 51;
 const dateDay = "29/11/2024";
+
 if (totalShoppingCarttt > 50 && dateDay === "29/11/2024") {
   console.log(
     "il prezzo da pagare è",
@@ -128,6 +132,21 @@ if (totalShoppingCarttttt > 50 && dateDayyy === "29/11/2024") {
   console.log("il prezzo da pagare è ", totalShoppingCarttttt);
 else {
   console.log("Il prezzo da pagare è", +(totalShoppingCarttttt + 10));
+}
+  */
+//esercizio corretto !!
+let totalShoppingCartRight = 80 * 0.8;
+if (totalShoppingCartRight > 50) {
+  console.log("Il prezzo da pagare è", totalShoppingCartRight);
+} else {
+  console.log(totalShoppingCartRight + 10);
+}
+
+totalShoppingCartRight = 50 * 0.8;
+if (totalShoppingCartRight > 50) {
+  console.log("Il prezzo da pagare è", totalShoppingCartRight);
+} else {
+  console.log(totalShoppingCartRight + 10);
 }
 
 /* ESERCIZIO 7
