@@ -272,7 +272,8 @@ console.log(me);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const arrayEpicode = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const arrayEpicode = [];
+arrayEpicode.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 console.log(arrayEpicode);
 
 /* ESERCIZIO 15
